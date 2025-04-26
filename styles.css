@@ -1,0 +1,101 @@
+/* Global styles */
+/* File: styles.css */
+
+/* Styling for main heading */
+h1 {
+    font-size: 2em; 
+    color: #914545; 
+    text-shadow: 2px 2px 4px #000;
+    text-decoration: none; 
+}
+/* Styling for paragraphs */
+p {
+    font-size: 1em;
+    color: #333;
+    line-height: 1.5;
+}
+body {
+    font-family: sans-serif;
+    text-align: center;
+    background: #360434;
+    padding: 20px;
+  }
+  
+  button {
+    margin: 10px;
+    padding: 10px 20px;
+    font-weight: bold;
+    cursor: pointer;
+    border-color: #0b0b0c;
+    border-radius: 5px;
+    background:rgb(239, 239, 240);
+  }
+  
+  #hoverBox {
+    background: #ffe348;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 8px;
+    transition: background 0.3s;
+  }
+  
+  #hoverBox:hover {
+    background: #ff69b4;
+  }
+  
+  .accordion-content {
+    display: none;
+    padding: 10px;
+    background: #ebbc80;
+    margin-bottom: 10px;
+  }
+  
+  img {
+    width: 300px;
+    height: 200px;
+    margin: 10px 0;
+  }
+  
+  input {
+    display: block;
+    margin: 10px auto;
+    padding: 8px;
+    width: 250px;
+  }
+  
+  #passwordFeedback {
+    display: block;
+    margin-top: -5px;
+    color: red;
+    font-size: 0.9em;
+  }
+  footer{
+    margin-top: 20px;
+    font-size: 0.8em;
+    color: #ffffff;
+    text-align: center;
+    
+    @media (max-width: 600px) {
+        font-size: 0.7em;
+    }
+  }
+  #animateBox {
+    width: 150px;
+    height: 150px;
+    background-color: #ff6f61;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px auto;
+    border-radius: 10px;
+    font-weight: bold;
+    transition: transform 1s ease, background-color 1s ease;
+  }
+  
+  /* This class will be toggled */
+  .moveIt {
+    transform: translateX(200px) rotate(20deg);
+    background-color: #6a5acd;
+  }
+  

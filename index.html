@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>JS Event Playground</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <h1>🎉 JS Event Playground</h1>
+
+  <!-- Button Event -->
+  <button id="magicButton">Click Me!</button>
+  <p id="buttonResult"></p>
+
+  <!-- Hover Box -->
+  <div id="hoverBox">Hover over me!</div>
+
+  <!-- Keypress -->
+  <input type="text" id="keyInput" placeholder="Type something..." />
+  <p id="keyOutput"></p>
+
+  <!-- Secret Double Click -->
+  <button id="secretBtn">Double Click Me!</button>
+  <p id="secretMsg"></p>
+
+  <!-- Image Slideshow -->
+  <div id="slideshow">
+    <img id="slideImage" src="https://images.pexels.com/photos/9669089/pexels-photo-9669089.jpeg?auto=compress&cs=tinysrgb&w=600" alt="smoking colours" />
+    <button id="prevBtn">Prev</button>
+    <button id="nextBtn">Next</button>  
+  </div>
+
+  <!-- Accordion -->
+  <div class="accordion">
+    <button class="accordion-btn">Section 1</button>
+    <div class="accordion-content">Lets Fix some puzzels together! 🧩
+        <img src="https://images.pexels.com/photos/1586951/pexels-photo-1586951.jpeg?auto=compress&cs=tinysrgb&w=600" alt="puzzles">
+    </div>
+    <button class="accordion-btn">Section 2</button>
+    <div class="accordion-content">Welcome to my Fruity world! 🍎
+        <img src="https://images.pexels.com/photos/1092730/pexels-photo-1092730.jpeg?auto=compress&cs=tinysrgb&w=600" alt="fruits">
+    </div>
+  </div>
+  <!--animationBox-->
+  <div id="animateBox">✨Catch me if you can! ✨</div>
+
+  <!-- Form Validation -->
+  <form id="signupForm">
+    <input type="text" id="name" placeholder="Name (required)" required />
+    <input type="email" id="email" placeholder="Email" required />
+    <input type="password" id="password" placeholder="Password (min 8 chars)" required />
+    <span id="passwordFeedback"></span>
+    <button type="submit">Submit</button>
+  </form>
+
+  <script src="script.js"></script>
+  <footer>All rights Reserved. &copy; pontshomathobela</footer>
+</body>
+</html>
